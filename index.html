@@ -7,6 +7,25 @@
   <title>Beato P. Faustino Oteiza Segura de la Virgen de los Dolores Sch.P.</title>
   <link rel="stylesheet" href="./Proyecto.css" />
   <style>
+    .modal { 
+display: none;              
+position: fixed; 
+left: 0; top: 0; 
+/* oculto hasta abrir */ 
+width: 100%; height: 100%; 
+background-color: rgba(0,0,0,0.5); 
+z-index: 1000; 
+} 
+.modal-contenido { 
+background: white; 
+margin: 5% auto; 
+padding: 20px; 
+border-radius: 10px; 
+max-width: 600px; 
+  max-height: 80vh;  
+  overflow-y: auto; 
+ 
+} 
     .cerrar { float: right; cursor: pointer; font-size: 24px; } 
     .correcta { color: rgb(112, 172, 147); } 
     .incorrecta { color: rgba(255, 0, 0, 0.459); } 
